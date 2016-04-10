@@ -1,14 +1,21 @@
-#background {
+.container-fluid {
+	/*background image courtesy of subtlepatterns.com*/
 	background-image: url("images/confectionary/confectionary.png");
 	font-size: #777777;
 	font-family: 'Muli', sans-serif;
 }
 
 header{
-	background-color: #ffffff;
+	/*background-color: #ffffff;
 	border-bottom: solid;
 	border-bottom-width: 1px;
-	border-bottom-color: #cccccc;
+	border-bottom-color: #cccccc;*/
+
+}
+
+nav {
+	float: right;
+	display: inline;
 }
 
 h1 {
@@ -16,9 +23,7 @@ h1 {
 	color: white;
 	text-align: center;
 	font-family: 'Kaushan Script', cursive;
-	padding-right: 50px;
-	padding-left: 100px;
-	margin-left: 100px;
+	
 }
 
 h2 {
@@ -27,14 +32,17 @@ h2 {
 	border-bottom-style: solid;
 	border-bottom-width: 2px;
 	border-bottom-color: #4aaaa5;
-	padding-top: 20px;
 }
 
-section {
+#main {
+	background-color: #ffffff;
+}
+
+aside {
 	background-color: #ffffff;
 	border-color: #dddddd;
-	margin-left: 80px;
 	float: left;
+	color: #4aaaa5;
 }
 
 #portfolio {
@@ -51,22 +59,13 @@ h3 {
 	background-color: #4aaaa5;
 	color: white;
 	position: absolute;
-	bottom: 0;
-	left: 0;
 	z-index: 1;
 }
 
-aside {
-	float: left;
-	background-color: #ffffff;
-	padding: 10px 30px !important;
-	margin: 25px 200px;
-	position: relative;
-}
 
-li a:first-child {
+/*li a:first-child {
 	padding: 25px 100px;
-}
+}*/
 
 h3 {
 	color: #4aaaa5;
@@ -75,11 +74,11 @@ h3 {
 	border-bottom-color: #dddddd;
 }
 
-li {
+/*li {
 	border-right: solid;
 	border-color: #4aaaa5;
 	border-width: 1px;
-}
+}*/
 
 footer {
 	background-color: #666666;
